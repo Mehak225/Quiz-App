@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZZY</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dancing+Script:wght@500&family=Libre+Baskerville:ital@1&family=Lobster&family=Lobster+Two:ital@1&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<div class="start-btn"><button>Start Quiz</button></div>
+
+<div class="info-box">
+    
+    <div class="info-title">
+        <span>Some Rules of this Quiz</span>
+    </div>
+
+    <div class="info-list">
+        <div class="info">1. You will only have <span>15 seconds</span> per Question.</div>
+        <div class="info">2. Once you select your answer, you can't rechange it.</div>
+        <div class="info">3. You can't select any option once time goes off.</div>
+        <div class="info">4. You can't exit from the Quiz after you have started.</div>
+        <div class="info">5. You'll get marks on the basis of your correct answer.</div>
+    </div>
+
+    <div class="buttons">
+        <button class="quit">Exit Quiz</button>
+        <button class="restart">Continue</button>
+    </div>
+
+</div>
+<div class="quiz-box">
+    <header>
+        <div class="time_line"></div>
+        <div class="title"><span id="Q">Q<span id="U">U</span><span id="I">I</span><span id="Z">Z</span><span id="z">Z</span><span id="Y">Y</span></span></div>
+        <div class="timer">
+            <div class="time-text">Time Left</div>
+            <div class="time-sec">15</div>
+        </div>
+    </header>
+    <section>
+        <div class="que-text">
+            <!-- <span>What does HTML stand for ?</span> -->
+        </div>
+        <div class="option-list">
+            <!-- <div class="option">
+                <span>Hyper Text Preprocessor</span>
+                <div class="icon tick"><i class="fa-solid fa-check"></i></div>
+            </div>
+            <div class="option">
+                <span>Hyper Text Markup Language</span>
+                <div class="icon cross"><i class="fa-solid fa-xmark"></i></div>
+            </div>
+            <div class="option">
+                <span>Hyper Text Multiple Language</span>
+            </div>
+            <div class="option">
+                <span>Hyper Tool Multi Language</span>
+            </div>
+        </div> -->
+    </section>
+
+    <footer>
+        <div class="total-que">
+            <!-- <span><p>1</p>of <p>10</p>Questions</span> -->
+        </div>
+        <button class="next-btn">Next Ques > </button>
+    </footer>
+</div>
+
+<div class="result-box">
+    <div class="icon">
+        <!-- <img src="img2.jpg">
+        <img src="img3.jpg">
+        <img src="img5.jpg"> -->
+    </div>
+    <div class="complete-text">You've completed the Quiz!</div>
+    <div class="score-text">
+        <!-- <span>and sorry, You got <p>2</p> out of <p>10</p></span> -->
+    </div>
+    <div class="buttons">
+        <button class="restart">Replay Quiz</button>
+        <button class="quit">Quit Quiz</button>
+    </div>
+</div>
+
+
+
+     <script src="question.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
